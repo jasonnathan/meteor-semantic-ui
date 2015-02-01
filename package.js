@@ -93,6 +93,6 @@ Package.on_use(function (api) {
   // ----------------------------
   // (TODO: create package)
   // ----------------------------
-  api.add_files('lib/jquery-address/jquery.address.js', 'client');
+  // api.add_files('lib/jquery-address/jquery.address.js', 'client');
 
 });
