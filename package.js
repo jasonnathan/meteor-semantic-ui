@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Semantic UI packaged for Meteor",
   version: "1.8.1",
-  name: "nooitaf:semantic-ui",
-  git: "https://github.com/nooitaf/meteor-semantic-ui.git"
+  name: "jasonnathan:semantic-ui",
+  git: "https://github.com/jasonnathan/meteor-semantic-ui.git"
 });
 
 
@@ -12,7 +12,7 @@ Package.on_use(function (api) {
 
   var path = Npm.require('path');
 
-  var assetPath = path.join('lib/semantic-ui/');
+  var assetPath = path.join('./lib/semantic-ui/');
   var assetFiles = [
     assetPath + 'components/ad.css',
     assetPath + 'components/accordion.css',
